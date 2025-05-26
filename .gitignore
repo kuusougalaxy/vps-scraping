@@ -1,0 +1,17 @@
+# --- config / secrets -----------------
+.env
+*.ini
+*.cfg
+
+# --- Python ---------------------------
+__pycache__/
+*.py[cod]
+
+# --- logs / backups -------------------
+*.log
+logs/
+*.bak
+*.swp
+
+# --- large data -----------------------
+data/
