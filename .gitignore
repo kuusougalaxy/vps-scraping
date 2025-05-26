@@ -1,17 +1,29 @@
-# --- config / secrets -----------------
+# ----------------------------------------
+# Node.js / TypeScript
+# ----------------------------------------
+node_modules/
+dist/
+build/
+coverage/
+
+# 環境変数
 .env
-*.ini
-*.cfg
+.env.*
 
-# --- Python ---------------------------
-__pycache__/
-*.py[cod]
-
-# --- logs / backups -------------------
+# PM2・プロセス管理
+pm2*.json
+*.pid
+pids/
 *.log
 logs/
-*.bak
-*.swp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# --- large data -----------------------
-data/
+# OS & エディタ
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
